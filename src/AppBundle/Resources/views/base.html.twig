@@ -1,47 +1,48 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Theme - Jérémie BARTOLI" />
-
-    <title>{% block title %}LEA{% endblock %}</title>
+    <title>{% block title %}Gutenberg{% endblock %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
     {% block stylesheets %}
-        {#<link rel="stylesheet" href="{{ asset("assets/bart.css") }}">#}
+        <!--[if lte IE 8]><script src="{{ asset("assets/js/ie/html5shiv.js") }}"></script><![endif]-->
+        <link rel="stylesheet" href="{{ asset("assets/css/font-awesome.min.css") }}">
+        <link rel="stylesheet" href="{{ asset("assets/css/main.css") }}">
+        <!--[if lte IE 9]><link rel="stylesheet" href="{{ asset("assets/css/ie9.css") }}" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="{{ asset("assets/css/ie8.css") }}" /><![endif]-->
     {% endblock %}
-
 </head>
+<body>
 
-<body class="page-body" data-url="http://bart-theme.dev">
+<!-- Wrapper -->
+<div id="wrapper">
 
-<div class="page-container">
-    <div class="sidebar-menu fixed">
-        <div class="sidebar-menu-inner">
-            <header class="logo-env">
-                <div class="sidebar-mobile-menu visible-xs">
-                    <a href="#" class="with-animation">
-                        <i class="entypo-menu"></i>
-                    </a>
-                </div>
-            </header>
-        </div>
-    </div>
+    {% include '@App/UI/top.html.html.twig' %}
 
-    <div class="main-content">
+    <!-- Main -->
+    <div id="main">
 
-    {% block body %}
-    {% endblock %}
+        {% block body %}
+        {% endblock %}
 
     </div>
+
+
+    {% include '@App/UI/footer.html.html.twig' %}
+
 </div>
 
-
 {% block javascript %}
-    {#<script src="{{ asset("assets/script.js") }}"></script>#}
+    <script src="{{ asset("assets/js/jquery.min.js") }}"></script>
+    <script src="{{ asset("assets/js/jquery.scrolly.min.js") }}"></script>
+    <script src="{{ asset("assets/js/jquery.scrollex.min.js") }}"></script>
+    <script src="{{ asset("assets/js/skel.min.js") }}"></script>
+    <script src="{{ asset("assets/js/util.js") }}"></script>
+    <!--[if lte IE 8]><script src="{{ asset("assets/js/ie/respond.min.js") }}"></script><![endif]-->
+    <script src="{{ asset("assets/js/main.js") }}"></script>
 {% endblock %}
+<!-- Scripts -->
+
 </body>
 </html>
