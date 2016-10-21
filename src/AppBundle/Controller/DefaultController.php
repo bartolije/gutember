@@ -10,14 +10,13 @@ use Symfony\Component\HttpFoundation\Request;
 class DefaultController extends Controller
 {
     /**
-     * @Template()
      * @Route("/", name="index")
      * @param Request $request
      * @return array
      */
     public function indexAction(Request $request)
     {
-        return array();
+        return $this->render('@App/Default/index.html.twig');
     }
 
 }
