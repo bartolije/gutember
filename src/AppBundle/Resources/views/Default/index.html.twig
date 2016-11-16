@@ -4,4 +4,33 @@
 
     It's void here
 
+    Hello,<br>
+    Aujourd'hui, vous allez voir twig.<br>
+    <br>
+    Je vais vous envoyer des données depuis le controller, et vous allez devoir les afficher, de façon joli.
+    <br><br>
+    C'est parti.
+    <br><br><br>
+    Je veux que sur l' URL suivantes, on puisse lister les books
+    <br>
+    /books/
+    <br>
+    => liste de toutes les book  en base, en affichant tous les champs.<br>
+    Puis, pour chaque book, avoir un bouton edit qui redirige vers /book/{id}/edit<br>
+    Et ensuite, un bouton delete, qui apres une demande de confirmation, pointe sur /book/{id}/delete
+    <br><br>
+    Les champs de chaque entités peuvent être trouvé dans le dossier Entity (a vous de chercher et trouver ce qui va bien ;))
+    <br><br>
+    Vous n'avez pas a modifier les controller.<br>
+    Les vues doivent se trouver dans le repertoire AppBundle/Ressources/view/<br>
+    Chaque entité a son repertoire (category a un repertoire category, meme chose pour post)<br>
+    <br><br>
+    Une fois la base créée, voici un jeu de donnée à insérer pour les tests
+    <br><br><br>
+
+    INSERT INTO `book` (`id`, `title`, `summary`, `author`, `pageCount`) VALUES
+    (1, 'difficulté', 'quelques difficultés à coder', 'bart', 10),
+    (2, 'gigolo', 'j''ai quelques idées de titre', 'elAutoro', 120),
+    (3, 'titre', 'summary', 'author', 456);
+
 {% endblock %}
