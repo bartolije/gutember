@@ -2,46 +2,322 @@
 
 {% block body %}
 
-    It's void here
 
-    Hello,<br>
-    Aujourd'hui, vous allez voir twig.<br>
-    <br>
-    Je vais vous envoyer des données depuis le controller, et vous allez devoir les afficher, de façon joli.
-    <br><br>
-    C'est parti.
-    <br><br><br>
-    Je veux que sur l' URL suivantes, on puisse lister les books
-    <br>
-    /books/
-    <br>
-    => liste de toutes les book  en base, en affichant tous les champs.<br>
-    Puis, pour chaque book, avoir un bouton edit qui redirige vers /book/{id}/edit<br>
-    Et ensuite, un bouton delete, qui apres une demande de confirmation, pointe sur /book/{id}/delete
-    <br><br>
-    Les champs de chaque entités peuvent être trouvé dans le dossier Entity (a vous de chercher et trouver ce qui va bien ;))
-    <br><br>
-    Vous n'avez pas a modifier les controller.<br>
-    Les vues doivent se trouver dans le repertoire AppBundle/Ressources/view/<br>
-    Chaque entité a son repertoire (category a un repertoire category, meme chose pour post)<br>
-    <br><br>
-    Une fois la base créée, voici un jeu de donnée à insérer pour les tests
-    <br><br><br>
+    <!-- ========== LOADER ========== -->
+    <div class="page-loader">
+        <div class="spinner"></div>
+    </div>
 
-    INSERT INTO `book` (`id`, `title`, `summary`, `author`, `pageCount`) VALUES
-    (1, 'difficulté', 'quelques difficultés à coder', 'bart', 10),
-    (2, 'gigolo', 'j''ai quelques idées de titre', 'elAutoro', 120),
-    (3, 'titre', 'summary', 'author', 456);
-    <br><br><br>
+    <!-- ========== HEADER ========== -->
+    <div class="header menu-style-2">
 
+        <div class="container-fluid">
+            <div class="menu" id="menu">
 
-    Step:
-    <br><br>
-    Créer la base de donnée.<br>
-    Mettre à jour le schema de la base via doctrine (vérifier via phpmyadmin)<br>
-    Ajouter, via phpmyadmin, le jeu de donnée ci-dessus<br>
-    Créer la page de visualisation des book (/Book/index.html.twig)<br>
-    Afficher les books (contenus dans la variable books)<br>
+                <!-- ========== Logo ========== -->
+                <div class="logo">
+                    <img src="{{ asset('assets/img/logo-dark.png') }}" alt="Salt" class="logo-img">
+                </div> <!-- end logo -->
 
+                <!-- ========== main-menu ========== -->
+                <ul class="main-menu">
+                    <li class="menu-item"><a href="#section1" data-scroll><i class="menu-icon fa fa-home"></i> Home</a></li>
+                    <li class="menu-item"><a href="#section2" data-scroll><i class="menu-icon fa fa-magic"></i> Collections</a></li>
+                    <li class="menu-item"><a href="#section4" data-scroll><i class="menu-icon fa fa-clone"></i> Team</a></li>
+                    <li class=" menu-item left-separator"><a href="#"><i class="menu-icon fa fa-facebook"></i> Facebook</a></li>
+                    <li class="menu-item"><a href="#"><i class="menu-icon fa fa-twitter"></i> Twitter</a></li>
+                </ul> <!-- end main-menu -->
+
+            </div> <!-- end menu -->
+        </div> <!-- end container-fluid -->
+    </div> <!-- end header -->
+
+    <!-- ========== MAIN ========== -->
+    <div class="main">
+
+        <!-- ========== HOME SECTION ========== -->
+        <div id="section1" class="parallax-window pt80 pb80" data-parallax="scroll" data-image-src="{{ asset('assets/img/demo-img-5.jpg') }}" data-speed="0.6">
+            <div class="container">
+                <div class="row pt80 pb80">
+                    <div class="col-md-12 text-center">
+                        <h1 class="headline">Your books everywhere !!</h1>
+                        <div class="col-md-4 col-md-offset-4">
+                            <input type="text" class="form-control input-style-2 rounded-input" id="book-name" placeholder="Search a book name..." required="">
+                        </div>
+                        <div class="clearfix pt30">
+                            <button type="submit" class="st-btn primary-btn full-rounded hvr-back hvr-sweep-to-bottom">Submit</button>
+                        </div>
+                    </div> <!-- end col-md-12 -->
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </div>
+
+        <!-- ========== CONTENT SECTION ========== -->
+        <section id="section2" class="content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-4 text-center">
+                            <img src="{{ asset('assets/img/img-1.png') }}" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="underline">Feature One</h5>
+                            <div class="col-md-7">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <ul class="ul-style-2">
+                                    <li><i class="fa fa-check list-icon"></i>Lorem ipsum dolor</li>
+                                    <li><i class="fa fa-check list-icon"></i>Sed do tempor </li>
+                                    <li><i class="fa fa-check list-icon"></i>Ut enim ad minim</li>
+                                    <li><i class="fa fa-check list-icon"></i>Nisi ut aliquip</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end col-md-8 -->
+                    </div> <!-- end col-md-10 -->
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+
+        <!-- ========== CONTENT SECTION ========== -->
+        <section class="content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-8">
+                            <h5 class="underline">Feature Two</h5>
+                            <div class="col-md-7">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <ul class="ul-style-2">
+                                    <li><i class="fa fa-check list-icon"></i>Lorem ipsum dolor</li>
+                                    <li><i class="fa fa-check list-icon"></i>Sed do tempor </li>
+                                    <li><i class="fa fa-check list-icon"></i>Ut enim ad minim</li>
+                                    <li><i class="fa fa-check list-icon"></i>Nisi ut aliquip</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end col-md-8 -->
+                        <div class="col-md-4 text-center">
+                            <img src="{{ asset('asset/img/img-1.pn') }}" alt="" class="img-responsive">
+                        </div>
+                    </div> <!-- end col-md-10 -->
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+
+        <!-- ========== FULL WIDTH FEATURE BOXES ========== -->
+        <section id="section3">
+            <div class="row feature-type-5">
+                <div class="col-md-3">
+                    <div class="feature-box-5">
+                        <div class="icon">
+                            <i class="ion-ios-checkmark-outline"></i>
+                        </div>
+                        <h5 class="feature-title">Fully Responsive</h5>
+                        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <i class="bg-icon ion-ios-paper-outline"></i>
+                    </div> <!-- end feature-box-5 -->
+                </div>
+
+                <div class="col-md-3">
+                    <div class="feature-box-5 black-box">
+                        <div class="icon">
+                            <i class="ion-ios-speedometer-outline"></i>
+                        </div>
+                        <h5 class="feature-title">Retina ready</h5>
+                        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <i class="bg-icon ion-ios-keypad-outline"></i>
+                    </div> <!-- end feature-box-5 -->
+                </div>
+
+                <div class="col-md-3">
+                    <div class="feature-box-5">
+                        <div class="icon">
+                            <i class="ion-ios-flask-outline"></i>
+                        </div>
+                        <h5 class="feature-title">Easy to use</h5>
+                        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <i class="bg-icon ion-ios-lightbulb-outline"></i>
+                    </div> <!-- end feature-box-5 -->
+                </div>
+
+                <div class="col-md-3">
+                    <div class="feature-box-5 black-box">
+                        <div class="icon">
+                            <i class="ion-ios-locked-outline"></i>
+                        </div>
+                        <h5 class="feature-title">Easy to use</h5>
+                        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <i class="bg-icon ion-ios-recording-outline"></i>
+                    </div> <!-- end feature-box-5 -->
+                </div>
+
+            </div> <!-- end row -->
+        </section>
+
+        <!-- ========== CONTENT SECTION WITH FEATURES ========== -->
+        <section class="content-section">
+            <div class="container">
+                <div class="row">
+
+                    <!-- ========== section title ========== -->
+                    <div class="col-md-12 section-header text-center">
+                        <h3 class="section-title underline">Services</h3>
+                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    </div> <!-- end section-header -->
+
+                    <div class="col-md-4 mb50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-checkmark-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Web Design</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+                    <div class="col-md-4 mb50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-speedometer-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Web Development</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+                    <div class="col-md-4 mb50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-football-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Graphic Design</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+
+                    <div class="col-md-4 mb50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-checkmark-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Web Design</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+                    <div class="col-md-4 mb50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-speedometer-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Web Development</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+                    <div class="col-md-4 mb50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-football-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Graphic Design</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+
+                    <div class="col-md-4 mbsm50 mbxs50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-checkmark-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Web Design</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+                    <div class="col-md-4 mbsm50 mbxs50">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-speedometer-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Web Development</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+                    <div class="col-md-4">
+                        <div class="feature-box-4">
+                            <div class="icon">
+                                <i class="ion-ios-football-outline"></i>
+                            </div>
+                            <h5 class="feature-title">Graphic Design</h5>
+                            <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div> <!-- end feature-box-4 -->
+                    </div> <!-- end col-md-4 -->
+
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+
+        <!-- ========== FULL WIDTH CTA ========== -->
+        <section class="cta trans">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h5 class="cta-title">Get in touch</h5>
+                        <p class="cta-desc mb20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <a href="#" class="st-btn primary-btn full-rounded">Contact Us</a>
+                    </div> <!-- end text-center -->
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+
+    </div> <!-- end main -->
+
+    <!-- ==================================================
+    Footer: Classes
+    footer - Default footer
+    dark-footer - Dark footer [Use with .footer]
+    sticky-footer - Reveal footer on scroll
+    ================================================== -->
+    <footer class="footer footer-style-4 dark-footer" id="footer">
+
+        <div class="container footer-middle ptn">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="{{ asset('assets/img/logo-light.png') }}" alt="Gutembook" class="img-responsive mb20" width="100" style="margin: auto;">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="footer-title lowercase">
+                        <i class="fa fa-phone"></i> +0 (123) 456-7890
+                        <span class="ml10 mr10">|</span>
+                        <i class="fa fa-envelope"></i> support@gutembook.com</h6>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-dribbble"></i></a>
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-youtube"></i></a>
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-vimeo"></i></a>
+                    <a href="#" class="trans pr10 pl10"><i class="fa fa-linkedin"></i></a>
+                </div> <!-- end col-md-6 -->
+            </div> <!-- end row -->
+        </div> <!-- end footer-middle -->
+
+        <!-- ========== Footer - last section ========== -->
+        <div class="footer-last">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        &copy; 2016 Gutembook
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <a href="#" class="mr10">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </div> <!-- end footer-last -->
+
+        <!-- ========== Scroll to top button ========== -->
+        <div class="scroll-to-top trans"><i class="fa fa-angle-up"></i></div>
+    </footer>
 
 {% endblock %}

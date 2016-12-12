@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8737c11f-8383-4b14-8adf-469f82ad0156" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/.sass-cache/cff29b1bda3d72ecdd3bffb9160652ed80c0d11b/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/revicons/revicons90c6.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/revicons/revicons90c6.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/revicons/revicons90c6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/app-landing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/bg-img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/blog-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/blog-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/business-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/cbp-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/badde-cakes-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/front-lead-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/grandde-inn-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/handsome-salman-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/james-some-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/saavaa-sundar-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/sea-face-resort-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/clients/swimmers-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-2-reverse.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/demo-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/footer-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/footer_lodyas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/full-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/full-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_01_2000x1500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_01_400x300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_02_2000x1500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_02_400x300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_03_2000x1500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_03_400x300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_04_2000x1500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/gallery/image_04_400x300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/img-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/landing-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/landing-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/landing-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/landing-page-image-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/landing-page-image-min.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/logo-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/logo-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/logo-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/map-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/nav-bg-dark-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/nav-bg-dark.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/nav-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-360/09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-450/08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-570/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-570/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-570/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-570/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-570/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/380-570/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/760-900/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/760-900/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/760-900/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/760-900/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-0003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-0005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-0009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-08-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-08-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-08-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-08-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-08-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-08-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-11-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-12-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-13-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-3-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-3-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/shop/product-img-3-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_Holy-Cow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_iceberg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_notgeneric_bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_notgeneric_bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_notgeneric_bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_notgeneric_bg5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_office_cover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_project_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_project_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_project_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/100x50_project_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_blurflake4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_full_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_full_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_full_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_full_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_traincover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/150x100_wineyard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/Broadway.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/Holy-Cow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/Sail-Away-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/Sail-Away.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/Sail-Away.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/amazon_shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/amigos-250x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/amigos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/animation.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/app_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/app_store.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/arrow1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/arrow2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/arrow3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/arrow4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/atable.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/banner_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bearded_bro.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bigbold_1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bigbold_1-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bigbold_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bigbold_2-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bigbold_3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bike-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bike-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bluebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/blurflake1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/blurflake2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/blurflake3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/blurflake4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/board-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bow_tie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/bow_tie_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/box_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/burning_horse.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/calbuco-250x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/calbuco.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/cameraicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/carousel_element_ipad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/carousel_element_iphone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/carousel_element_laptop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/cc-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/chair.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/clickhere.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/cloud1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/cloud2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/cloud3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/coffee_cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/coffee_cup2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/comingsoon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/comingsoon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/concept.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/concept1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/concept4-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/concept_bg2-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/corner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/creative_bg1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/creative_bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/datcolor-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/datcolor-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/datcolor-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/datcolor-70x70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/datcolor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/deer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/desk_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/desktopbg1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/desktopbg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/drink_cover-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/dummy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ellipse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/eraser_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/examplebar3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/express_bglight-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/express_bglight.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/express_lightlogo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/expresswhitelogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ezlogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/fashion_bg1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/fashion_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/feature_girl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/fitness-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/fitness-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/fitness.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/flat_ipad2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/flat_iphone2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/food1-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/food2-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/food3-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/food4-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/food5-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/food6-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/frontpage_element_iphone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_1-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_3-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_4-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_5-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/full_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/generic-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/girl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/girl_beach.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/girls-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/girls-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/girly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/glasses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/glasses2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/google_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/greenstripe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/guy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/gym1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/gym2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/gymlogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/hand.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/headphones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/hero_element_iphone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iceberg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iceberg-250x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iceberg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iceberg.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/icebg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/icebg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/icon_download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ihpone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ihpone_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imac_mountain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery1-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery11-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery12-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery3-1-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery4-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery5-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery7-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/imagegallery9-2-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ipad_big-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ipad_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ipad_glare-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_big-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_cutout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_glare.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_image1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_img1-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_slide2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/iphone_slide3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/jim_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lambo-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lambo-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lamp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lamp2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/landscape-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/landscape-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/light1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/light_deer-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lightbg-100x50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lightbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/lighton1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/macbook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/macbook_screen_content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/macbookpro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/media1-250x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/media1-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/mountainbg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/mountainbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/muesli-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature1-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature2-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature3-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature4-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature5-1-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nature5-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel2-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel4-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel4-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel5-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel5-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel6-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel6-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel6-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newscarousel6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newspaper_bg1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newspaper_bg2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newspaper_bg2-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newspaper_bg3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newspaper_bg3-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/newspaper_bg3-320x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg2-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg2-70x70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg3-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg3-70x70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg5-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgeneric_bg5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgenericherobg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgenericherobg-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgenericherobg-70x70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/notgenericherobg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/nyctech.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/office_cover-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/office_cover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/officeloop_cover-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_bottom_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_bottom_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_left_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_right_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_top_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_top_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_twig1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_twig2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_wide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ornament_wide_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/pagelogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/paper2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/pen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/person_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/person_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone1-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone2-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone3-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone4-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone5-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone6-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone7-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone8-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/phone9-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photocam_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photocam_hand2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photocam_lens.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photographer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography2-320x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography3-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography4-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography4-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography5-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography6-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography7-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography8-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography8-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography9-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography9-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography9-320x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography9-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography_contact-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography_contact-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography_thumb3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photography_thumb6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/photoguy1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/pierbg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/plant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/premiumbg1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/premiumdiamond.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/project_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/project_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/project_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/project_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/red_deer-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/restaurant_bg_1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/restaurant_bg_2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/restaurant_bg_3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/restaurant_logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/revslider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/revslider_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/rockband.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/shortcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slide9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/slider_element_iphone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/space_cover-250x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/sports_sublinebg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/supportedsocial.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/testimonial4-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/the_sky.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/touchit-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/touchit-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/touchit-60x60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/tplogo_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/traincover-100x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/traincover-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/traincover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel1-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel1-70x70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel2-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel3-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel4-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel4-280x43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel4-70x70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/travel4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/tree_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/typing.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/typing_cover-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/typing_cover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/usb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/video.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/vimeobg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/watch_big-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/welcome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/whiteboard_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/whitehorse_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/wineyard-150x100.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/wineyard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/wineyards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/woo1-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/woo2-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/woo3-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/wood_pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/wooden_floor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/wowfactor1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/youtubebg-100x50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/split-screen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/alizarin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/carrot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/main.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/midnightblue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/multiscroll.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/nephritis.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/peterriver.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/sunflower.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/torquoise.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/vendor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/wisteria.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/fonts/revicons/revicons90c6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/avatar-1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/avatar-2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/avatar-3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/avatar-4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/avatar-5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/avatar-6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ic_done_24px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/ic_keyboard_arrow_down_24px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/img/slides/revolution/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/camera.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/combined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-app-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-blog-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-cube-home-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-cube-home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-home-10-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-3-col.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-default-no-gutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-google-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-masonry-no-gutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-masonry-style-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-masonry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-mosaic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-no-gutter-3-col.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-style-2-col-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-portfolio-style-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-rev-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-rev-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-rev-6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider-video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-team.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/init-testimonials.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/multiscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/vendor/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/web/assets/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/main.js" afterPath="$PROJECT_DIR$/web/assets/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
+    </list>
+    <ignored path="gutember.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gutember" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="881">
+              <caret line="312" column="24" lean-forward="false" selection-start-line="312" selection-start-column="24" selection-end-line="312" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="192" />
+    <option name="y" value="47" />
+    <option name="width" value="2044" />
+    <option name="height" value="1314" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Book" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gutember" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\gutember\web\assets\js" />
+      <recent name="C:\xampp\htdocs\gutember\web\assets\css" />
+      <recent name="C:\xampp\htdocs\gutember\web\assets\img" />
+      <recent name="C:\xampp\htdocs\gutember\web\assets" />
+    </key>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8737c11f-8383-4b14-8adf-469f82ad0156" name="Default" comment="" />
+      <created>1481575027510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481575027510</updated>
+      <workItem from="1481575028562" duration="49000" />
+      <workItem from="1481575187431" duration="42000" />
+      <workItem from="1481575251553" duration="1944000" />
+      <workItem from="1481582059422" duration="583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2618000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="192" y="47" width="2044" height="1314" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/wisteria.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/vendor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/img/demo-img-5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="312" column="24" lean-forward="false" selection-start-line="312" selection-start-column="24" selection-end-line="312" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
