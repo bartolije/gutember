@@ -18,10 +18,14 @@ class BookType extends AbstractType
         $builder
             ->add('title', TextType::class)
             ->add('author', TextType::class)
-            ->add('picture', TextType::class)
             ->add('editor', TextType::class)
             ->add('categories', EntityType::class, array(
                 'class' => 'AppBundle:Category',
+                'choice_label' => 'name',
+                'multiple' => true
+            ))
+            ->add('themes', EntityType::class, array(
+                'class' => 'AppBundle:Theme',
                 'choice_label' => 'name',
                 'multiple' => true
             ))

@@ -83,6 +83,10 @@ class Book
      */
     private $categories;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Theme", cascade={"persist"})
+     */
+    private $themes;
 
     public function __construct()
     {
@@ -317,7 +321,33 @@ class Book
         $this->categories->removeElement($category);
     }
 
+    #endregion
 
+    /**
+     * @return mixed
+     */
+    public function getThemes()
+    {
+        return $this->themes;
+    }
+
+    /**
+     * @param Theme $theme
+     * @return $this
+     */
+    public function addTheme(Theme $theme)
+    {
+        $this->themes[] = $theme;
+        return $this;
+    }
+
+    /**
+     * @param Theme $theme
+     */
+    public function removeTheme(Theme $theme)
+    {
+        $this->themes->removeElement($theme);
+    }
 
     #endregion
 }
