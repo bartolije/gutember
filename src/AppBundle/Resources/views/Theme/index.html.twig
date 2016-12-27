@@ -12,16 +12,18 @@
         </tr>
         </thead>
         <tbody>
-        {% for category in categories %}
+        {% for theme in themes %}
             <tr>
-                <td>{{ category.id }}</td>
-                <td>{{ category.name }}</td>
+                <td>{{ theme.id }}</td>
+                <td>{{ theme.name }}</td>
                 <td>
-                    <a href="{{ path('category_edit', { 'id': category.id }) }}">Edit</a> /
-                    <a href="{{ path('category_delete', { 'id': category.id }) }}">Delete</a> </td>
+                    <a href="{{ path('theme_edit', { 'id': theme.id }) }}">Edit</a> /
+                    <a href="{{ path('theme_delete', { 'id': theme.id }) }}">Delete</a> </td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
+
+
 
 {% endblock %}

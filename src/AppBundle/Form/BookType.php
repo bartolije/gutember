@@ -25,6 +25,11 @@ class BookType extends AbstractType
                 'choice_label' => 'name',
                 'multiple' => true
             ))
+            ->add('themes', EntityType::class, array(
+                'class' => 'AppBundle:Theme',
+                'choice_label' => 'name',
+                'multiple' => true
+            ))
             ->add('publishedAt', DateType::class)
             ->add('summary', TextType::class)
             ->add('save', SubmitType::class, array('label' => 'Create book'))

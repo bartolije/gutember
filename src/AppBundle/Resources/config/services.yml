@@ -6,3 +6,7 @@ services:
       app.category.manager:
         class: AppBundle\Manager\CategoryManager
         arguments: [ '@doctrine.orm.entity_manager', '@form.factory', '@router' ]
+
+      app.theme.manager:
+        class: AppBundle\Manager\ThemeManager
+        arguments: [ '@doctrine.orm.entity_manager', '@form.factory', '@router' ]

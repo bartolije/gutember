@@ -2,21 +2,21 @@
 
 namespace AppBundle\Manager;
 
-use AppBundle\Entity\Book;
-use AppBundle\Form\BookType;
+use AppBundle\Entity\Theme;
+use AppBundle\Form\ThemeType;
 use Symfony\Bundle\FrameworkBundle\Routing\Router;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**
- * Class BookManager
+ * Class ThemeManager
  * @package AppBundle\Manager
  */
-class BookManager extends BaseManager
+class ThemeManager extends BaseManager
 {
 
     /**
-     * BookManager constructor.
+     * ThemeManager constructor.
      * @param $em
      * @param $formFactory
      * @param Router $router
@@ -32,7 +32,7 @@ class BookManager extends BaseManager
      */
     public function findAll()
     {
-        return $this->em->getRepository('AppBundle:Book')->findAll();
+        return $this->em->getRepository('AppBundle:Theme')->findAll();
     }
 
     /**
@@ -41,8 +41,8 @@ class BookManager extends BaseManager
      */
     public function save(Request $request)
     {
-        $book = new Book();
-        return $this->handleForm($request, $book);
+        $theme = new Theme();
+        return $this->handleForm($request, $theme);
     }
 
     /**
@@ -52,8 +52,8 @@ class BookManager extends BaseManager
      */
     public function edit(Request $request, $id)
     {
-        $book = $this->em->getRepository('AppBundle:Book')->find($id);
-        return $this->handleForm($request, $book);
+        $theme = $this->em->getRepository('AppBundle:Theme')->find($id);
+        return $this->handleForm($request, $theme);
     }
 
     /**
@@ -63,20 +63,20 @@ class BookManager extends BaseManager
      */
     public function delete($id)
     {
-        $book = $this->em->getRepository('AppBundle:Book')->find($id);
-        $this->removeAndFlush($book);
-        return $this->redirect('book_index');
+        $theme = $this->em->getRepository('AppBundle:Theme')->find($id);
+        $this->removeAndFlush($theme);
+        return $this->redirect('theme_index');
     }
 
     /**
      * @param Request $request
-     * @param Book $book
+     * @param Theme $theme
      * @return array|RedirectResponse
      */
-    public function handleForm(Request $request, $book)
+    public function handleForm(Request $request, $theme)
     {
-        $form = $this->formFactory->create(BookType::class, $book);
-        return $this->handleBaseForm($request, $form, $book, "book_index");
+        $form = $this->formFactory->create(ThemeType::class, $theme);
+        return $this->handleBaseForm($request, $form, $theme, "theme_index");
     }
 
 }

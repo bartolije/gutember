@@ -28,6 +28,11 @@ class Theme
      */
     private $name;
 
+    function __toString()
+    {
+        return "Theme __toString()";
+    }
+
 
     /**
      * Get id

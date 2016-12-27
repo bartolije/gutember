@@ -2,29 +2,33 @@
 
 {% block body %}
 
-    <h1>hey dans le Book-Panel</h1>
-
     <table class="table">
-
-    <tr>
-        <th>Id</th>
-        <th>Title</th>
-        <th>Summary</th>
-        <th>Author</th>
-        <th>Action</th>
-        <th>Edit/Delete</th>
-    </tr>
-
-    {% for book in books %}
+        <caption>Themes</caption>
+        <thead>
         <tr>
-            <td>{{ book.id }}</td>
-            <td>{{ book.title }}</td>
-            <td>{{ book.summary }}</td>
-            <td>{{ book.author }}</td>
-            <td>
-                <a href="{{ path('book_edit', { 'id': book.id }) }}">Edit</a> /
-                <a href="{{ path('book_delete', { 'id': book.id }) }}">Delete</a> </td>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Summary</th>
+            <th>Action</th>
         </tr>
-    {% endfor %}
+        </thead>
+        <tbody>
+
+        {% for book in books %}
+            <tr>
+                <td>{{ book.id }}</td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.summary }}</td>
+                <td>{{ book.author }}</td>
+                <td>
+                    <a href="{{ path('book_edit', { 'id': book.id }) }}">Edit</a> /
+                    <a href="{{ path('book_delete', { 'id': book.id }) }}">Delete</a> </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
 
 {% endblock %}

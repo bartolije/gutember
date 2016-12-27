@@ -13,6 +13,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Book
 {
+    var $TOKENLENGHT = 8;
+
     /**
      * @var int
      *
@@ -83,10 +85,25 @@ class Book
      */
     private $categories;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Theme", cascade={"persist"})
+     */
+    private $themes;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="token", type="string", length=8, unique=true)
+     */
+    private $token;
+
 
     public function __construct()
     {
         $this->createdAt = new \DateTime('now');
+        $this->token = $this->createToken($this->TOKENLENGHT);
+        $this->categories = new ArrayCollection();
+        $this->themes = new ArrayCollection();
     }
 
     /**
@@ -95,7 +112,6 @@ class Book
     public function preUpdate()
     {
         $this->lastUpdate = new \DateTime('now');
-        $this->categories = new ArrayCollection();
     }
 
     function __toString()
@@ -317,7 +333,77 @@ class Book
         $this->categories->removeElement($category);
     }
 
+    /**
+     * @return mixed
+     */
+    public function getThemes()
+    {
+        return $this->themes;
+    }
 
+    /**
+     * @param Theme $theme
+     * @return $this
+     */
+    public function addTheme(Theme $theme)
+    {
+        $this->themes[] = $theme;
+        return $this;
+    }
+
+    /**
+     * @param Theme $theme
+     */
+    public function removeTheme(Theme $theme)
+    {
+        $this->categories->removeElement($theme);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getToken()
+    {
+        return $this->token;
+    }
+
+    /**
+     * @param mixed $token
+     */
+    public function setToken($token)
+    {
+        $this->token = $token;
+    }
+
+    private function crypto_rand_secure($min, $max)
+    {
+        $range = $max - $min;
+        if ($range < 1) return $min; // not so random...
+        $log = ceil(log($range, 2));
+        $bytes = (int) ($log / 8) + 1; // length in bytes
+        $bits = (int) $log + 1; // length in bits
+        $filter = (int) (1 << $bits) - 1; // set all lower bits to 1
+        do {
+            $rnd = hexdec(bin2hex(openssl_random_pseudo_bytes($bytes)));
+            $rnd = $rnd & $filter; // discard irrelevant bits
+        } while ($rnd > $range);
+        return $min + $rnd;
+    }
+
+    private function createToken($length)
+    {
+        $token = "";
+        $codeAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        $codeAlphabet.= "abcdefghijklmnopqrstuvwxyz";
+        $codeAlphabet.= "0123456789";
+        $max = strlen($codeAlphabet); // edited
+
+        for ($i=0; $i < $length; $i++) {
+            $token .= $codeAlphabet[$this->crypto_rand_secure(0, $max-1)];
+        }
+
+        return $token;
+    }
 
     #endregion
 }
