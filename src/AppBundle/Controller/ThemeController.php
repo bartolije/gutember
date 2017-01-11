@@ -8,7 +8,11 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
+<<<<<<< HEAD
  * @Route("/admin/theme")
+=======
+ * @Route("/theme")
+>>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
  */
 class ThemeController extends Controller
 {
@@ -19,8 +23,13 @@ class ThemeController extends Controller
      */
     public function indexAction()
     {
+<<<<<<< HEAD
         $themes = $this->get('app.theme.manager')->findAll();
         return array('themes' => $themes);
+=======
+        $books = $this->get('app.theme.manager')->findAll();
+        return array('themes' => $books);
+>>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
     }
 
     /**

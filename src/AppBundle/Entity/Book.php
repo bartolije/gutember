@@ -89,6 +89,7 @@ class Book
      * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Theme", cascade={"persist"})
      */
     private $themes;
+<<<<<<< HEAD
 
     /**
      * @var string
@@ -97,6 +98,8 @@ class Book
      */
     private $token;
 
+=======
+>>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
 
     public function __construct()
     {
@@ -333,6 +336,11 @@ class Book
         $this->categories->removeElement($category);
     }
 
+<<<<<<< HEAD
+=======
+    #endregion
+
+>>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
     /**
      * @return mixed
      */
@@ -350,6 +358,7 @@ class Book
         $this->themes[] = $theme;
         return $this;
     }
+<<<<<<< HEAD
 
     /**
      * @param Theme $theme
@@ -403,6 +412,15 @@ class Book
         }
 
         return $token;
+=======
+
+    /**
+     * @param Theme $theme
+     */
+    public function removeTheme(Theme $theme)
+    {
+        $this->themes->removeElement($theme);
+>>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
     }
 
     #endregion

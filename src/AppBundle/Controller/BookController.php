@@ -2,13 +2,21 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Category;
+use AppBundle\Entity\Theme;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
+<<<<<<< HEAD
  * @Route("/admin/book")
+=======
+ * @property array categories
+ * @property  theme
+ * @Route("/book")
+>>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
  */
 class BookController extends Controller
 {
@@ -57,5 +65,58 @@ class BookController extends Controller
     {
         return $this->get('app.book.manager')->delete($request, $id);
     }
+    /**
+     * @return mixed
+     */
+    public function getCategories()
+    {
+        return $this->categories;
+    }
+
+    /**
+     * @param Category $category
+     * @return $this
+     */
+    public function addCategory(Category $category)
+    {
+        $this->categories[] = $category;
+        return $this;
+    }
+
+    /**
+     * @param Category $category
+     */
+    public function removeCategory(Category $category)
+    {
+        $this->categories->removeElement($category);
+    }
+    #endregion
+
+    /**
+     * @return mixed
+     */
+    public function getThemes()
+    {
+        return $this->themes;
+    }
+
+    /**
+     * @param Theme $theme
+     * @return $this
+     */
+    public function addThemes(Theme $theme)
+    {
+        $this->themes[] = $theme;
+        return $this;
+    }
+
+    /**
+     * @param Theme $theme
+     */
+    public function removeTheme(Theme $theme)
+    {
+        $this->theme ->removeElement($theme);
+    }
+    #endregion
 
 }
