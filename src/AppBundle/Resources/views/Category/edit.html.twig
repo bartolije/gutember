@@ -2,6 +2,34 @@
 
 {% block body %}
 
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary" data-collapsed="0">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Input Sizes
+                    </div>
+                </div>
+                <div class="panel-body">
+                    {{ form_start(form, { 'attr': {'class': 'form-horizontal form-groups-bordered'} }) }}
+                        <div class="form-group">
+                            {{ form_label(form.name, 'name', { 'attr': {'class': 'col-sm-3 control-label'} }) }}
+                            <div class="col-sm-5">
+                                {{ form_widget(form.name, { 'attr': {'class': 'form-control input-lg'} }) }}
+                            </div>
+                        </div>
+                        <div class="form-group form-actions">
+                            <div class="col-md-9">
+                                {{ form_widget(form.save, { 'attr': {'class': 'btn btn-sm btn-primary'} }) }}
+                            </div>
+                        </div>
+                    {{ form_rest(form) }}
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+
     {{ form(form) }}
 
 {% endblock %}
