@@ -73,9 +73,10 @@
 
         <hr />
 
-        {% block body %}
-
-        {% endblock %}
+        <div class="row">
+            {% block body %}
+            {% endblock %}
+        </div>
 
         {% include 'AppBundle:UI:footer.html.twig' %}
     </div>

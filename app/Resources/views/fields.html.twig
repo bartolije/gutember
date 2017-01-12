@@ -1,0 +1,17 @@
+{% block form_row %}
+
+    <div class="form-group">
+        {{ form_label(form, null,{ 'attr': {'class': 'col-sm-5 col-md-3 control-label'} }) }}
+        <div class="">
+            {{ form_widget(form, { 'attr': {'class': 'form-control'} }) }}
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block form_error %}
+    <div id="val-email-error" class="help-block animated fadeInDown">
+        {{ form_errors(form) }}
+    </div>
+{% endblock %}

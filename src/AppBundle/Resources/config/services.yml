@@ -7,10 +7,6 @@ services:
         class: AppBundle\Manager\CategoryManager
         arguments: [ '@doctrine.orm.entity_manager', '@form.factory', '@router' ]
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
       app.theme.manager:
         class: AppBundle\Manager\ThemeManager
         arguments: [ '@doctrine.orm.entity_manager', '@form.factory', '@router' ]

@@ -2,7 +2,6 @@
 
 {% block body %}
 
-<<<<<<< HEAD
     <table class="table">
         <caption>Themes</caption>
         <thead>
@@ -24,28 +23,4 @@
         {% endfor %}
         </tbody>
     </table>
-
-
-=======
-   <h1>Bienvenue dans le Book-Panel</h1>
-
-    <table class="table">
-
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Edit/Delete</th>
-    </tr>
-
-    {% for theme in themes %}
-        <tr>
-            <td>{{ theme.id }}</td>
-            <td>{{ theme.name }}</td>
-            <td><a href="{{ path('theme_edit', { 'id': theme.id }) }}">Edit</a> /<a href="{{ path('theme_delete', { 'id': theme.id }) }}">Delete</a> </td>
-        </tr>
-
-        <a href="{{ path('theme_create', { 'id': theme.id }) }}">Ajouter un theme</a>
-    {% endfor %}
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
-
 {% endblock %}

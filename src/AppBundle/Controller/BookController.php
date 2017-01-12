@@ -10,13 +10,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
-<<<<<<< HEAD
  * @Route("/admin/book")
-=======
  * @property array categories
  * @property  theme
- * @Route("/book")
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
  */
 class BookController extends Controller
 {

@@ -1,47 +1,12 @@
 {% extends 'AppBundle::base.html.twig' %}
 
 {% block body %}
-
-<<<<<<< HEAD
-    <table class="table">
-        <caption>Themes</caption>
-        <thead>
-        <tr>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Summary</th>
-            <th>Action</th>
-        </tr>
-        </thead>
-        <tbody>
-
-        {% for book in books %}
-            <tr>
-                <td>{{ book.id }}</td>
-                <td>{{ book.title }}</td>
-                <td>{{ book.summary }}</td>
-                <td>{{ book.author }}</td>
-                <td>
-                    <a href="{{ path('book_edit', { 'id': book.id }) }}">Edit</a> /
-                    <a href="{{ path('book_delete', { 'id': book.id }) }}">Delete</a> </td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-
-
-=======
-    <h1>Bienvenue dans la gestion Book</h1>
-    </hr>
-
     <table class="table">
 
     <tr>
-        <th>Id</th>
+        <th>Token</th>
         <th>Title</th>
         <th>Author</th>
-        <th>Editor</th>
         <th>Categories</th>
         <th>Themes</th>
         <th>Published at</th>
@@ -51,10 +16,9 @@
 
     {% for book in books %}
         <tr>
-            <td>{{ book.id }}</td>
+            <td>{{ book.token }}</td>
             <td>{{ book.title }}</td>
             <td>{{ book.author }}</td>
-            <td>{{ book.editor }}</td>
             <td>
                 {% if not book.categories.empty %}
                     {% for category in book.categories %}
@@ -71,14 +35,12 @@
             </td>
             <td>{{ book.publishedAt | date }}</td>
             <td>{{ book.summary }}</td>
-            <td><a href="{{ path('book_edit', { 'id': book.id }) }}">Edit</a> / <a
-                        href="{{ path('book_delete', { 'id': book.id }) }}">Delete</a></td>
+            <td><a href="{{ path('book_edit', { 'id': book.id }) }}">Edit</a> /
+                <a href="{{ path('book_delete', { 'id': book.id }) }}">Delete</a>
+            </td>
         </tr>
 
         <a href="{{ path('book_create', { 'id': book.id }) }}">Ajouter un livre</a>
     {% endfor %}
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
-
-
 
 {% endblock %}

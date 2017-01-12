@@ -10,6 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\Table(name="book")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\BookRepository")
+ * @ORM\HasLifecycleCallbacks()
  */
 class Book
 {
@@ -44,13 +45,6 @@ class Book
      * @ORM\Column(name="picture", type="string", length=255, nullable=true)
      */
     private $picture;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="editor", type="string", length=255, nullable=true)
-     */
-    private $editor;
 
     /**
      * @var \DateTime
@@ -89,7 +83,6 @@ class Book
      * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Theme", cascade={"persist"})
      */
     private $themes;
-<<<<<<< HEAD
 
     /**
      * @var string
@@ -98,8 +91,12 @@ class Book
      */
     private $token;
 
-=======
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="htmlsrc", type="string", length=255, nullable=true)
+     */
+    private $htmlsrc;
 
     public function __construct()
     {
@@ -112,7 +109,7 @@ class Book
     /**
      * @ORM\PrePersist
      */
-    public function preUpdate()
+    public function prePersist()
     {
         $this->lastUpdate = new \DateTime('now');
     }
@@ -120,6 +117,36 @@ class Book
     function __toString()
     {
         return "Implement ToString function";
+    }
+
+    private function crypto_rand_secure($min, $max)
+    {
+        $range = $max - $min;
+        if ($range < 1) return $min; // not so random...
+        $log = ceil(log($range, 2));
+        $bytes = (int) ($log / 8) + 1; // length in bytes
+        $bits = (int) $log + 1; // length in bits
+        $filter = (int) (1 << $bits) - 1; // set all lower bits to 1
+        do {
+            $rnd = hexdec(bin2hex(openssl_random_pseudo_bytes($bytes)));
+            $rnd = $rnd & $filter; // discard irrelevant bits
+        } while ($rnd > $range);
+        return $min + $rnd;
+    }
+
+    private function createToken($length)
+    {
+        $token = "";
+        $codeAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        $codeAlphabet .= "abcdefghijklmnopqrstuvwxyz";
+        $codeAlphabet .= "0123456789";
+        $max = strlen($codeAlphabet); // edited
+
+        for ($i = 0; $i < $length; $i++) {
+            $token .= $codeAlphabet[$this->crypto_rand_secure(0, $max - 1)];
+        }
+
+        return $token;
     }
 
     #region Getter & Setter
@@ -204,30 +231,6 @@ class Book
     public function getPicture()
     {
         return $this->picture;
-    }
-
-    /**
-     * Set editor
-     *
-     * @param string $editor
-     *
-     * @return Book
-     */
-    public function setEditor($editor)
-    {
-        $this->editor = $editor;
-
-        return $this;
-    }
-
-    /**
-     * Get editor
-     *
-     * @return string
-     */
-    public function getEditor()
-    {
-        return $this->editor;
     }
 
     /**
@@ -336,11 +339,7 @@ class Book
         $this->categories->removeElement($category);
     }
 
-<<<<<<< HEAD
-=======
-    #endregion
 
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
     /**
      * @return mixed
      */
@@ -358,7 +357,6 @@ class Book
         $this->themes[] = $theme;
         return $this;
     }
-<<<<<<< HEAD
 
     /**
      * @param Theme $theme
@@ -384,45 +382,22 @@ class Book
         $this->token = $token;
     }
 
-    private function crypto_rand_secure($min, $max)
+    /**
+     * @return string
+     */
+    public function getHtmlsrc()
     {
-        $range = $max - $min;
-        if ($range < 1) return $min; // not so random...
-        $log = ceil(log($range, 2));
-        $bytes = (int) ($log / 8) + 1; // length in bytes
-        $bits = (int) $log + 1; // length in bits
-        $filter = (int) (1 << $bits) - 1; // set all lower bits to 1
-        do {
-            $rnd = hexdec(bin2hex(openssl_random_pseudo_bytes($bytes)));
-            $rnd = $rnd & $filter; // discard irrelevant bits
-        } while ($rnd > $range);
-        return $min + $rnd;
+        return $this->htmlsrc;
     }
 
-    private function createToken($length)
-    {
-        $token = "";
-        $codeAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        $codeAlphabet.= "abcdefghijklmnopqrstuvwxyz";
-        $codeAlphabet.= "0123456789";
-        $max = strlen($codeAlphabet); // edited
-
-        for ($i=0; $i < $length; $i++) {
-            $token .= $codeAlphabet[$this->crypto_rand_secure(0, $max-1)];
-        }
-
-        return $token;
-=======
-
     /**
-     * @param Theme $theme
+     * @param string $htmlsrc
      */
-    public function removeTheme(Theme $theme)
+    public function setHtmlsrc($htmlsrc)
     {
-        $this->themes->removeElement($theme);
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
+        $this->htmlsrc = $htmlsrc;
     }
 
     #endregion
-}
 
+}

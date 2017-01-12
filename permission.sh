@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # Set www-data owner of everything
 chgrp -R www-data *

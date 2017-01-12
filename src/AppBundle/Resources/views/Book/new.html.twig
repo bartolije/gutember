@@ -2,6 +2,19 @@
 
 {% block body %}
 
+    <div class="col-md-12">
+        <div class="panel panel-primary" data-collapsed="0">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    New book
+                </div>
+            </div>
+            <div class="panel-body">
+                {{ form(form) }}
+            </div>
+        </div>
+    </div>
+
     {{ form(form) }}
 
 {% endblock %}

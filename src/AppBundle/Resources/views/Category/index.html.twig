@@ -6,7 +6,6 @@
         <caption>Themes</caption>
         <thead>
         <tr>
-<<<<<<< HEAD
             <th>Id</th>
             <th>Name</th>
             <th>Action</th>
@@ -24,14 +23,5 @@
         {% endfor %}
         </tbody>
     </table>
-=======
-            <td>{{ category.id }}</td>
-            <td>{{ category.name }}</td>
-            <td><a href="{{ path('category_edit', { 'id': category.id }) }}">Edit</a> /<a href="{{ path('category_delete', { 'id': category.id }) }}">Delete</a> </td>
-        </tr>
-
-        <a href="{{ path('category_create', { 'id': category.id }) }}">Ajouter une categorie</a>
-    {% endfor %}
->>>>>>> 7f1f3f7750f155853c89a59f7516d098505490b1
 
 {% endblock %}

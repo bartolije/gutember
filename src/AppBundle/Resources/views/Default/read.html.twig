@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Gutembook</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="{{ asset("assets/css/font-awesome.min.css") }}">
+    <!-- ========== FAVICON & APPLE ICONS ========== -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- ========== MINIFIED VENDOR CSS ========== -->
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor.css') }}">
+
+    <!-- ========== MAIN CSS ========== -->
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+
+    <script src="{{ asset('assets/js/vendor/modernizr.js') }}"></script>
+</head>
+
+
+<body class="header-shadow light-header">
+
+
+<!-- ========== LOADER ========== -->
+<div class="page-loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- ========== HEADER ========== -->
+<div class="header menu-style-2">
+
+    <div class="container-fluid">
+        <div class="menu" id="menu">
+
+            <!-- ========== Logo ========== -->
+            <div class="logo">
+                <img src="{{ asset('assets/img/logo-dark.png') }}" alt="Salt" class="logo-img">
+            </div> <!-- end logo -->
+
+            <!-- ========== main-menu ========== -->
+            <ul class="main-menu">
+                <li class="menu-item"><a href="#" data-scroll><i class="menu-icon fa fa-home"></i> Home</a></li>
+                <li class="menu-item"><a href="#" data-scroll><i class="menu-icon fa fa-magic"></i> Collections</a></li>
+                <li class="menu-item"><a href="#" data-scroll><i class="menu-icon fa fa-clone"></i> Team</a></li>
+            </ul> <!-- end main-menu -->
+
+        </div> <!-- end menu -->
+    </div> <!-- end container-fluid -->
+</div> <!-- end header -->
+
+<!-- ========== MAIN ========== -->
+<div class="main">
+
+    <!-- ========== PAGE TITLE ========== -->
+    <div class="page-title-div" >
+        <div class="container">
+            <div class="row page-title-row">
+                <div class="col-md-6 col-sm-6">
+                    <h1 class="page-title">
+                        {{ book.title }}
+                    </h1>
+                    <h5 class="mb10 capitalize muted-color">
+                        <a href="#">
+                            <small class="text-muted muted-color">{{ book.author }}</small>
+                        </a>
+                    </h5>
+                    <p>{{ book.summary }}</p>
+                </div>
+
+                <div class="col-md-6 col-sm-6 hidden-xs">
+                    <ol class="breadcrumb pull-right border-0">
+                        <li>
+                            {% for category in book.categories %}
+                                {{ category.name }}{% if not loop.last %}, {% endif %}
+                            {% endfor %}
+                        </li>
+                        <li>
+                            {% for theme in book.themes %}
+                                {{ theme.name }}{% if not loop.last %}, {% endif %}
+                            {% endfor %}
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <p>
+                        {{ source('book/html/' ~ book.htmlsrc)}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div> <!-- end main -->
+
+<footer class="footer footer-style-4 dark-footer" id="footer">
+
+    <div class="container footer-middle ptn">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="{{ asset('assets/img/logo-light.png') }}" alt="Gutembook" class="img-responsive mb20" width="100" style="margin: auto;">
+            </div>
+            <div class="col-md-6">
+                <h6 class="footer-title lowercase">
+                    <i class="fa fa-phone"></i> +0 (123) 456-7890
+                    <span class="ml10 mr10">|</span>
+                    <i class="fa fa-envelope"></i> support@gutembook.com</h6>
+            </div>
+            <div class="col-md-6 text-right">
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-dribbble"></i></a>
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-vimeo"></i></a>
+                <a href="#" class="trans pr10 pl10"><i class="fa fa-linkedin"></i></a>
+            </div> <!-- end col-md-6 -->
+        </div> <!-- end row -->
+    </div> <!-- end footer-middle -->
+
+    <!-- ========== Footer - last section ========== -->
+    <div class="footer-last">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; 2016 - {{ "now"|date("Y") }}   Gutembook
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="mr10">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </div> <!-- end footer-last -->
+
+    <!-- ========== Scroll to top button ========== -->
+    <div class="scroll-to-top trans"><i class="fa fa-angle-up"></i></div>
+</footer>
+
+
+<script src="{{ asset("assets/js/vendor.js") }}"></script>
+<script src="{{ asset("assets/js/plugins.js") }}"></script>
+<script src="{{ asset("assets/js/main.js") }}"></script>
+<!-- Scripts -->
+
+</body>
+</html>
