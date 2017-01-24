@@ -39,6 +39,8 @@ twig:
     strict_variables: "%kernel.debug%"
     form_themes:
         - '::fields.html.twig'
+    paths:
+        '%kernel.root_dir%/../web/assets/book/html': books
 
 # Doctrine Configuration
 doctrine:
