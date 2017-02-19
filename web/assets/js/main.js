@@ -11,7 +11,7 @@
 	});
 
 	/**
-	 * Applies parallax scrolling to an element's background image.
+	 * Applies parallax scrolling to an element's background images.
 	 * @return {jQuery} jQuery object.
 	 */
 	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.browser == 'edge' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
@@ -137,13 +137,13 @@
 			$tiles.each(function() {
 
 				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img'),
+					$image = $this.find('.image'), $img = $image.find('image'),
 					$link = $this.find('.link'),
 					x;
 
 				// Image.
 
-					// Set image.
+					// Set images.
 						$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 					// Set position.
@@ -223,7 +223,7 @@
 			$banner.each(function() {
 
 				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img');
+					$image = $this.find('.image'), $img = $image.find('image');
 
 				// Parallax.
 					$this._parallax(0.275);
@@ -231,7 +231,7 @@
 				// Image.
 					if ($image.length > 0) {
 
-						// Set image.
+						// Set images.
 							$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 						// Hide original.

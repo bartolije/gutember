@@ -24,9 +24,9 @@ function addPage(page, book) {
 
 function loadPage(page, pageElement) {
 
-	// Create an image element
+	// Create an images element
 
-	var img = $('<img />');
+	var img = $('<images />');
 
 	img.mousedown(function(e) {
 		e.preventDefault();
@@ -37,7 +37,7 @@ function loadPage(page, pageElement) {
 		// Set the size
 		$(this).css({width: '100%', height: '100%'});
 
-		// Add the image to the page after loaded
+		// Add the images to the page after loaded
 
 		$(this).appendTo(pageElement);
 
@@ -166,7 +166,7 @@ function processRegion(region, regionType) {
 
 function loadLargePage(page, pageElement) {
 	
-	var img = $('<img />');
+	var img = $('<images />');
 
 	img.load(function() {
 

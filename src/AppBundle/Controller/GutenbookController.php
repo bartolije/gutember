@@ -7,16 +7,24 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class DefaultController extends Controller
+class GutenbookController extends Controller
 {
     /**
-     * @Route("/", name="index")
+     * @Route("/index", name="index")
      * @param Request $request
      * @return array
      */
     public function indexAction(Request $request)
     {
-        return $this->render('@App/Default/index.html.twig');
+        return $this->render('@App/gutenbook/index.html.twig');
     }
-
+    /**
+     * @Route("/homepage", name="homepage")
+     * @param Request $request
+     * @return array
+     */
+    public function homepageAction(Request $request)
+    {
+        return $this->render('@App/gutenbook/homepage.html.twig');
+    }
 }
