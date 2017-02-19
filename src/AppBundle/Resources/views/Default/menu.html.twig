@@ -1,6 +1,35 @@
-<ul id="menu_top">
+<!-- ========== LOADER ========== -->
+<div class="page-loader">
+    <div class="spinner"></div>
+</div>
 
-    <a href="{{ path("home") }}">Accueil</a>
-    <a href="{{ path("home") }}">home</a>
+<!-- ========== HEADER ========== -->
+<div class="header menu-style-2">
 
-</ul>
+    <div class="container-fluid">
+        <div class="menu" id="menu">
+
+            <!-- ========== Logo ========== -->
+            <div class="logo">
+                <img src="{{ asset('assets/img/logo-dark.png') }}" alt="Salt" class="logo-img">
+            </div> <!-- end logo -->
+
+            <!-- ========== main-menu ========== -->
+            <ul class="main-menu">
+                <li class="menu-item"><a href="#section1" data-scroll><i class="menu-icon fa fa-home"></i> Home</a></li>
+                <li class="menu-item"><a href="#section2" data-scroll><i class="menu-icon fa fa-magic"></i> Collections</a></li>
+                <li class="menu-item"><a href="#section4" data-scroll><i class="menu-icon fa fa-clone"></i> Team</a></li>
+                <li class=" menu-item left-separator"><a href="#"><i class="menu-icon fa fa-facebook"></i> Facebook</a></li>
+                <li class="menu-item "><a href="#"><i class="menu-icon fa fa-twitter"></i> Twitter</a></li>
+                {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                    <li class=" menu-item left-separator"><a href="{{ path('fos_user_profile_show') }}"><i class="menu-icon glyphicon glyphicon-user"></i>Bienvenue : {{ app.user.username }}</a></li>
+                {% else %}
+                     <li class=" menu-item left-separator"><a href="{{ path('fos_user_security_login') }}">Connexion</a></li>
+                    <li class=" menu-item"><a href="{{ path('fos_user_registration_register') }}">Inscription</a></li>
+                {% endif %}
+            </ul> <!-- end main-menu -->
+
+
+        </div> <!-- end menu -->
+    </div> <!-- end container-fluid -->
+</div> <!-- end header -->

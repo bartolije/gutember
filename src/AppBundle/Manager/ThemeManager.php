@@ -70,13 +70,20 @@ class ThemeManager extends BaseManager
      * @return RedirectResponse
      * @internal param Request $request
      */
-    public function delete($id)
+    public function delete($request, $id)
     {
-        $theme = $this->em->getRepository('AppBundle:Theme')->find($id);
-        $this->removeAndFlush($theme);
-        return $this->redirect('theme_index');
-    }
+        $category = $this->em->getRepository('AppBundle:Category')->find($id);
 
+        if($category instanceof Category)
+        {
+            $this->removeAndFlush($category);
+            return $this->redirect('category_index');
+        }else
+        {
+            throw new HttpException(418);
+        }
+
+    }
     /**
      * @param Request $request
      * @param Theme $theme

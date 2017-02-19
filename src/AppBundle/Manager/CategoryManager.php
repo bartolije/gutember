@@ -4,9 +4,12 @@ namespace AppBundle\Manager;
 
 use AppBundle\Entity\Category;
 use AppBundle\Form\CategoryType;
+use HttpResponseException;
 use Symfony\Bundle\FrameworkBundle\Routing\Router;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /**
  * Class CategoryManager
@@ -69,11 +72,19 @@ class CategoryManager extends BaseManager
      * @return RedirectResponse
      * @internal param Request $request
      */
-    public function delete($id)
+    public function delete($request, $id)
     {
         $category = $this->em->getRepository('AppBundle:Category')->find($id);
-        $this->removeAndFlush($category);
-        return $this->redirect('category_index');
+
+        if($category instanceof Category)
+        {
+            $this->removeAndFlush($category);
+            return $this->redirect('category_index');
+        }else
+        {
+            throw new HttpException(418);
+        }
+
     }
 
     /**

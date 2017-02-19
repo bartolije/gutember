@@ -88,6 +88,8 @@ class Book
      */
     private $themes;
 
+
+
     public function __construct()
     {
         $this->createdAt = new \DateTime('now');
@@ -321,8 +323,6 @@ class Book
         $this->categories->removeElement($category);
     }
 
-    #endregion
-
     /**
      * @return mixed
      */
@@ -348,6 +348,8 @@ class Book
     {
         $this->themes->removeElement($theme);
     }
+
+
 
     #endregion
 }

@@ -69,11 +69,19 @@ class BookManager extends BaseManager
      * @return RedirectResponse
      * @internal param Request $request
      */
-    public function delete($id)
+    public function delete($request, $id)
     {
-        $book = $this->em->getRepository('AppBundle:Book')->find($id);
-        $this->removeAndFlush($book);
-        return $this->redirect('book_index');
+        $category = $this->em->getRepository('AppBundle:Category')->find($id);
+
+        if($category instanceof Category)
+        {
+            $this->removeAndFlush($category);
+            return $this->redirect('category_index');
+        }else
+        {
+            throw new HttpException(418);
+        }
+
     }
 
     /**

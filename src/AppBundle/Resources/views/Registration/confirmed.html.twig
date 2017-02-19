@@ -1,0 +1,22 @@
+{% extends 'AppBundle::base.html.twig' %}
+
+{% block body %}
+
+    {% include "AppBundle:Default:menu.html.twig" %}
+
+    <div class="main">
+
+
+        <p>{{ 'registration.confirmed'|trans({'%username%': user.username}) }}</p>
+        {% if targetUrl %}
+            <p><a href="{{ targetUrl }}">{{ 'registration.back'|trans }}</a></p>
+        {% endif %}
+
+
+
+
+    </div>
+
+    {% include "AppBundle:Default:footer.html.twig" %}
+
+{% endblock %}
