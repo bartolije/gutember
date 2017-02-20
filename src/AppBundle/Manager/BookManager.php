@@ -27,15 +27,7 @@ class BookManager extends BaseManager
     }
 
     /**
-     * @param $id
-     * @return mixed
-     */
-    public function find($id)
-    {
-        return $this->em->getRepository('AppBundle:Book')->findOneBy(array('id' => $id));
-    }
-
-    /**
+     * Method called from controller
      * @return mixed
      */
     public function findAll()
