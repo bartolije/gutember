@@ -27,4 +27,14 @@ class GutenbookController extends Controller
     {
         return $this->render('@App/gutenbook/homepage.html.twig');
     }
+
+    /**
+     * @Route("/books-detail", name="books-detail")
+     * @param Request $request
+     * @return array
+     */
+    public function bookDetailAction(Request $request)
+    {
+        return $this->render('@App/gutenbook/books-detail.html.twig');
+    }
 }
