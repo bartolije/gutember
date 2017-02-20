@@ -225,29 +225,22 @@ header{
 	display:inline-block;
 
 }
-#iconSearch{
-	display: inline-block;
-	position:absolute;
-	left:85%;
-	top: 35%;
-	width:auto;
-	height:auto;
-	border-color: #d58512;
-	z-index:4;
-}
 .searchBar{
 	display: inline-block;
 	position: relative;
 	margin-top: 5%;
 	border-color: #d58512;
 	z-index:5;
+	background-image: url("../../../../web/assets/img/loupe.png");
+	background-repeat: no-repeat;
+	background-position: 5px 10px;
 }
 .kode-navigation ul{
 	float:left;
 	width:100%;
 	list-style:none;
 	margin:10px 0px;
-	padding:0px;
+	padding:5px;
 }
 .kode-navigation ul li{
 	float:left;
@@ -456,9 +449,9 @@ header{
 .kode-banner .kode-caption-2{
 	position:absolute;
 	width:50%;
-	left:50%;
+	left:60%;
 	margin-left:-41%;
-	top:25%;
+	top:35%;
 	z-index:100;
 }
 .kode-banner .kode-caption-3 .kode-text{
@@ -469,7 +462,7 @@ header{
 	width:280px;
 }
 .kode-header-class-3 .kode-banner .kode-caption-2{
-	top:35%;
+	top:45%;
 }
 .kode-banner .kode-caption-2 h5, .kode-banner .kode-caption-2 h2{
 	color:#fff;
