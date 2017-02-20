@@ -1,36 +1,46 @@
 {% extends 'AppBundle::base.html.twig' %}
+
 {% block body %}
-   <section class="row">
+    <table class="table">
 
-       <div class="col-xs-1 col-ms-3 col-md-4 col-md-offset-4 col-sm-offset-4">
-    <table>
-        <thead>
+    <tr>
+        <th>Token</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Categories</th>
+        <th>Themes</th>
+        <th>Published at</th>
+        <th>Summary</th>
+        <th>Edit/Delete</th>
+    </tr>
 
-            <th>| Numéro |</th>
-            <th>| nom |</th>
-            <th>| description |</th>
-            <th>| auteur |</th>
-            <th>| nombre de page |</th>
-            <th>| Action |</th>
-        </thead>
-        <tbody>
-            {% for book in books %}
-                <tr>
-                <td>| {{ book.id }} |</td>
-                <td>| {{ book.title }} |</td>
-                <td>| {{ book.summary }} |</td>
-                <td>| {{ book.author }} |</td>
-                <td>| {{ book.pageCount }} |</td>
-                <td>
-                    <a href="{{ path('book_edit',{'id': book.id}) }}">Edit </a>
-                    <a href="{{ path('book_delete',{'id': book.id}) }}">Delete <i class="fa fa-flask" aria-hidden="true"></i></a>
-                </td>
-                </tr>
-             {% endfor %}
-        </tbody>
-    </table>
-       </div>
-       <div class="col-xs-1 col-ms-3 col-md-4"></div>
-    </section>
+    {% for book in books %}
+        <tr>
+            <td>{{ book.token }}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>
+                {% if not book.categories.empty %}
+                    {% for category in book.categories %}
+                        {{ category.name }}{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </td>
+            <td>
+                {% if not book.themes.empty %}
+                    {% for theme in book.themes %}
+                        {{ theme.name }}{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </td>
+            <td>{{ book.publishedAt | date }}</td>
+            <td>{{ book.summary }}</td>
+            <td><a href="{{ path('book_edit', { 'id': book.id }) }}">Edit</a> /
+                <a href="{{ path('book_delete', { 'id': book.id }) }}">Delete</a>
+            </td>
+        </tr>
+
+        <a href="{{ path('book_create', { 'id': book.id }) }}">Ajouter un livre</a>
+    {% endfor %}
 
 {% endblock %}

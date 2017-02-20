@@ -1,0 +1,26 @@
+{% extends 'AppBundle::base.html.twig' %}
+
+{% block body %}
+
+    <table class="table">
+        <caption>Themes</caption>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for theme in themes %}
+            <tr>
+                <td>{{ theme.id }}</td>
+                <td>{{ theme.name }}</td>
+                <td>
+                    <a href="{{ path('theme_edit', { 'id': theme.id }) }}">Edit</a> /
+                    <a href="{{ path('theme_delete', { 'id': theme.id }) }}">Delete</a> </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
