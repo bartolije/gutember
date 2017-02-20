@@ -34,19 +34,19 @@
 </head>
 <body>
 {% block menu %}
-    <!--HEADER START-->
-    <div class="wrapper kode-header-class-3">
-        <header class="header-3">
-            <div class="container">
-                <div class="logo-container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <!--LOGO START-->
-                            <div class="logo">
-                                <a href="#"><img src="{{ asset("assets/front/images/logo-1.png") }}" alt=""></a>
-                            </div>
-                            <!--LOGO END-->
+<div class="wrapper kode-header-class-3">
+    <header class="header-3">
+        <div class="container">
+            <div class="logo-container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <!--LOGO START-->
+                        <div class="logo">
+                            <a href="#"><img src="{{ asset("assets/img/LOGO-1.png") }}" alt=""></a>
                         </div>
+                        <!--LOGO END-->
+                    </div>
+                    <div class="col-md-10">
                         <div class="top-strip">
                             <div class="social-icon">
                                 <ul>
@@ -80,12 +80,9 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <div class="searchBar">
                                         <form action="" class="form">
                                             <input class="searchBar" placeholder="Search..."/>
-                                            <input type="image" src="{{ asset('assets/front/images/loupe.png') }}" name="Recherche" id="iconSearch" />
                                         </form>
-                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -113,9 +110,15 @@
                                         <li><a href="blog-detail.html">Blog Detail</a></li>
                                     </ul>
                                 </li>
+                                <li>
+                                        <form action="" class="form">
+                                            <input class="searchBar" placeholder="Search..."/>
+                                        </form>
+                                </li>
                             </ul>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
 
