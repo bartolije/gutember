@@ -228,7 +228,7 @@ header{
 .searchBar{
 	display: inline-block;
 	position: relative;
-	margin-top: 5%;
+	margin-top: 10%;
 	border-color: #d58512;
 	z-index:5;
 	background-image: url("../../../../web/assets/img/loupe.png");
